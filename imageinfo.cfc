@@ -1,5 +1,4 @@
-component table="imageinfo" persistent=true extends="model.BaseObject" accessors=true
-    cache=false autowire=true {
+component table="imageinfo" persistent=true accessors=true {
 
 	property name="imageinfo_id" ormtype="integer" type="numeric" fieldtype="id" generator="native" generated="insert";
 
