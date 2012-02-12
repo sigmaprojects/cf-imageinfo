@@ -1,5 +1,4 @@
-component table="colormodel" persistent=true extends="model.BaseObject" accessors=true
-    cache=false autowire=true {
+component table="colormodel" persistent=true accessors=true {
 
 	property name="colormodel_id" ormtype="integer" type="numeric" fieldtype="id" generator="native" generated="insert";
 
